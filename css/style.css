@@ -62,7 +62,7 @@ width: 80%;
     margin-bottom: 30px; 
 }
 .date{
-    padding-top: 80px !important;
+    padding-top: 110px !important;
     padding-left:30px !important;
 }
 .date .months{
@@ -101,3 +101,23 @@ width: 80%;
     padding-bottom: 30px;
 }
 /* End contact styling */
+
+/* Start Footer style */
+.footer{
+    background-color: rgba(0, 0, 0, 0.9);
+    margin-top: 20px;
+    height: 10vh;
+}
+    .copyright{
+    display: flex;
+    justify-content: center;
+    flex-wrap: row wrap;
+    align-items:center;
+    }
+    .footer-text{
+        padding: 20px;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+/* End Footer style */
