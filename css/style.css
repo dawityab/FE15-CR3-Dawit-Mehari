@@ -122,6 +122,36 @@ width: 80%;
 
 /* End Footer style */
 
+/* Start Review style  */
+.review-container{
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 40px;
+}
+.review-row{
+    padding-top: 40px;
+}
+#review{
+    padding-left: 20px;
+}
+.user-review-name, .review-time{
+    color: tomato;
+}
+.review-time{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.review-btn{
+    margin-right: 5px;
+}
+.star-color{
+    color: rgb(199, 199, 11);
+}
+.user-review-image{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
 
 /* Start Small screen style */
 
@@ -133,6 +163,10 @@ width: 80%;
     .contact-text{
         text-align: center;
     }
+    .user-review-image{
+        display: none;
+    }
+
  }
 
 /* End Small screen style */
