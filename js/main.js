@@ -19,7 +19,29 @@ calculateInvoice(140,20,249,140,20,249,140,20,249);
 
 // A function that shows the invoice of the customer
 
-let calculateInvoice = (band_2_Of_Stage_1,band_2_Stage_2,band_3_Stage_3) => {
+let calculateInvoice1 = (band_2_Of_Stage_1,band_2_Of_Stage_2,band_3_Of_Stage_3) => {
 
+    let sum = band_2_Of_Stage_1 + band_2_Of_Stage_2 + band_3_Of_Stage_3;
 
+    return sum;
+
+}
+
+console.log("The Sum of 3 customer invoice is " + calculateInvoice1(20,20,249));
+
+// A function that shows the invoices calculation
+
+let price_3_Of_Stage_1 = 249; 
+let price_2_Of_Stage_2 = 20;
+let price_1_Of_Stage_3 = 140;  
+
+let sum_Of_invoices = price_3_Of_Stage_1 + price_2_Of_Stage_2 + price_3_Of_Stage_1;
+
+console.log(`The sum of 3 different events invoice ${sum_Of_invoices}`);
+
+// A function that shows ths students discount invoice
+
+let studentInvoice = (band_3_Of_Stage_1,band_1_Of_Stage_2,band_2_Of_Stage_3) => {
+
+    
 }
