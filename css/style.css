@@ -121,3 +121,18 @@ width: 80%;
     }
 
 /* End Footer style */
+
+
+/* Start Small screen style */
+
+@media (max-width: 575.98px) { 
+
+    #contact-image{
+        display: none;
+    }
+    .contact-text{
+        text-align: center;
+    }
+ }
+
+/* End Small screen style */
