@@ -39,7 +39,7 @@ let sum_Of_Invoices = price_3_Of_Stage_1 + price_2_Of_Stage_2 + price_1_Of_Stage
 
 console.log(`The sum of 3 different events invoice ${sum_Of_Invoices}`);
 
-// A function that return a 10% discount invoice for students 
+// A function that return a 10% discount invoices for students 
 
 let studentInvoice = (band_3_Of_Stage_1,band_1_Of_Stage_2,band_2_Of_Stage_3) => {
 
