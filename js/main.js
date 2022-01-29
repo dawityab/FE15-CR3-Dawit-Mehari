@@ -46,7 +46,7 @@ let studentInvoice = (band_3_Of_Stage_1,band_1_Of_Stage_2,band_2_Of_Stage_3) => 
 
     let sum_of_student_Invoice = band_3_Of_Stage_1 + band_1_Of_Stage_2 + band_2_Of_Stage_3;
 
-    let ten_Percentage = sum_of_student_Invoice * 0.10 ;
+    let ten_Percentage = sum_of_student_Invoice * 0.1 ;
    
     return sum_of_student_Invoice - ten_Percentage;
 
