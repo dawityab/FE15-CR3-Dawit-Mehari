@@ -19,7 +19,7 @@ calculateInvoice(140,20,249,140,20,249,140,20,249);
 
 // A function that shows the invoice of the customer
 
-let calculateInvoice = (band_2_Of_Stage_1,band_2_Stage_2,band_3_Stage_3){
+let calculateInvoice = (band_2_Of_Stage_1,band_2_Stage_2,band_3_Stage_3) => {
 
-    
+
 }
