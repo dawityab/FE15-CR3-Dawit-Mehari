@@ -17,7 +17,7 @@ let calculateInvoice =  (price1,price2,price3,price4,price5,price6,price7,price8
 }
 calculateInvoice(140,20,249,140,20,249,140,20,249);
 
-// A function that return the sum of the customer invoice
+// A function that return the sum of 3 invoice
 
 let calculateInvoice1 = (band_2_Of_Stage_1,band_2_Of_Stage_2,band_3_Of_Stage_3) => {
 
@@ -27,7 +27,7 @@ let calculateInvoice1 = (band_2_Of_Stage_1,band_2_Of_Stage_2,band_3_Of_Stage_3) 
 
 }
 
-console.log("The Sum of 3 customer invoice is " + calculateInvoice1(20,20,249));
+console.log("The Sum of 3 invoice is " + calculateInvoice1(20,20,249));
 
 // A calculation that shows the sum invoices 
 
