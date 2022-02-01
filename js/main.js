@@ -29,7 +29,7 @@ let calculateInvoice1 = (band_2_Of_Stage_1,band_2_Of_Stage_2,band_3_Of_Stage_3) 
 
 console.log("The Sum of 3 invoice is " + calculateInvoice1(20,20,249));
 
-// A calculation that shows the sum invoices 
+// A calculation that shows the invoices of different events 
 
 let price_3_Of_Stage_1 = 249; 
 let price_2_Of_Stage_2 = 20;
