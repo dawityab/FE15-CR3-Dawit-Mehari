@@ -3,33 +3,17 @@ let calculateInvoice =  (band1,band2,band3) => {
 
  let sum = band1 + band2 + band3;
 
+
+
  return sum;
 
 }
-calculateInvoice(140,20,249);
-calculateInvoice(140,20,249);
-calculateInvoice(140,20,249);
-// A function that return the sum of 3 invoice
 
-// let calculateInvoice1 = (band_2_Of_Stage_1,band_2_Of_Stage_2,band_3_Of_Stage_3) => {
-
-//     let sum = band_2_Of_Stage_1 + band_2_Of_Stage_2 + band_3_Of_Stage_3;
-
-//     return sum;
-
-// }
-
-// console.log("The Sum of 3 invoice is " + calculateInvoice1(20,20,249));
-
-// A calculation that shows the invoices of different events 
-let calculateInvoice2 = (price_1_Of_Stage_1,price_1_Of_Stage_2,price_1_Of_Stage_3) =>{
-  
-    console.log(`The inovice of Stage 1 Event 1 invoice ${price_1_Of_Stage_1}`);
-    console.log(`The inovice of Stage 2 Event 1 invoice ${price_1_Of_Stage_2}`);
-    console.log(`The inovice of Stage 3 Event 1 invoice ${price_1_Of_Stage_3}`);
-
-};
-calculateInvoice2(249,20,140);
+console.log(calculateInvoice(140,20,249));
+console.log(calculateInvoice(180,120,200));
+console.log(calculateInvoice(40,210,130));
+console.log(`The sum of the customer's invoice is ${calculateInvoice(140,249,249)}`);
+console.log(`The invoice of different events is ${calculateInvoice(140,20,249)}`);
 
 
 
