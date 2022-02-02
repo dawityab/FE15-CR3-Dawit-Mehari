@@ -1,7 +1,9 @@
 // A function that shows all events price
 let calculateInvoice =  (band1,band2,band3) => {
 
- console.log(band1,band2,band3);
+ let sum = band1 + band2 + band3;
+
+ return sum;
 
 }
 calculateInvoice(140,20,249);
@@ -9,15 +11,15 @@ calculateInvoice(140,20,249);
 calculateInvoice(140,20,249);
 // A function that return the sum of 3 invoice
 
-let calculateInvoice1 = (band_2_Of_Stage_1,band_2_Of_Stage_2,band_3_Of_Stage_3) => {
+// let calculateInvoice1 = (band_2_Of_Stage_1,band_2_Of_Stage_2,band_3_Of_Stage_3) => {
 
-    let sum = band_2_Of_Stage_1 + band_2_Of_Stage_2 + band_3_Of_Stage_3;
+//     let sum = band_2_Of_Stage_1 + band_2_Of_Stage_2 + band_3_Of_Stage_3;
 
-    return sum;
+//     return sum;
 
-}
+// }
 
-console.log("The Sum of 3 invoice is " + calculateInvoice1(20,20,249));
+// console.log("The Sum of 3 invoice is " + calculateInvoice1(20,20,249));
 
 // A calculation that shows the invoices of different events 
 let calculateInvoice2 = (price_1_Of_Stage_1,price_1_Of_Stage_2,price_1_Of_Stage_3) =>{
